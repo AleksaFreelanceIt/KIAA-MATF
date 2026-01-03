@@ -42,7 +42,7 @@ int main(){
       neusmeren_graf[od_cvor].push_back(do_cvor);
       neusmeren_graf[do_cvor].push_back(od_cvor);
     }
-  /*for(int i = 0; i < m; i++){                                             Pravljenje grafa kao usmerenom grafu
+  /*for(int i = 0; i < m; i++){                                             Pravljenje grafa kao usmereni graf
       int od_cvor, do_cvor;
       cin >> od_cvor >> do_cvor;
       usmeren_graf[od_cvor].push_back(do_cvor);
